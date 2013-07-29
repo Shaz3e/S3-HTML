@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on Shaz3e S3 Framework             ||
+|| # Copyright (C) 2010  shaz3e.com. All Rights Reserved.               ||
+|| # Authors - Shahrukh A. Khan (Shaz3e) and DiligentCreators           ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of shaz3e.com                         ||
+|| # for more information visit http://www.shaz3e.com/                  ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses websites - http://www.shaz3e.com        ||
+|| # A project of DiligentCreators - Construcing Ideas...               ||
+|| #################################################################### ||
+\*======================================================================*/
+-->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1, user-scaleable=no">
+<meta charset="utf-8">
+<title>Offline - S3 Responsive Template System</title>
+
+<!-- Bootstrap Style's Sheet -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/offline.css" rel="stylesheet">
+
+<!-- jQueries -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-noconflict.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+<!-- Main Theme File -->
+<link rel="stylesheet/less" type="text/css" href="/themes/style1/style.less">
+<script type="text/javascript" src="/js/less.js"></script>
+
+<!---------------------------------------------
+By default watch mode is enabled
+if you are working on development machine put this code as it is
+upload your website and append #!watch after the url i.e. http://shaz3e.com/#!watch 
+and keep updating your any less file without refresh the whole page.
+Note: #!watch may not work on sub-domains 
+#!watch Examples
+http://s3.shaz3e.com/#!watch - this won't work
+http://shaz3e.com/s3/#!watch - this will work
+http://www.shaz3e.com/s3/#!watch - this will work
+---------------------------------------------->
+<script type="text/javascript">
+	less.env = "development";
+	less.watch();
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41080686-1', 'http://shaz3e.com');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Fav Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicon/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicon/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicon/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="images/favicon/favicon.png">
+
+<!--[if lt IE 9]>
+<link href="css/ie.css" type="text/css" rel="stylesheet">
+<![endif]-->
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+</head>
+
+<body class="dc-wrapper pageClass">
+
+<!--[if lt IE 9]>
+    <div class="dc-broswer-alert">
+    <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/"><strong>upgrade your browser</strong></a> or <a href="http://www.google.com/chromeframe/?redirect=true"><strong>activate Google Chrome Frame</strong></a> to improve your experience.</p>
+    </div>
+<![endif]-->
+    <div class="dc-offline">
+        <div class="dc-offline-system-message"><jdoc:include type="message" /></div>
+        <div class="dc-offline-image">
+                <img src="" alt="">
+        </div>
+        <div class="dc-offline-sitename">
+            <h1>Shaz3e - The Revealing Paradigm</h1>
+        </div>
+        <div class="dc-offline-message">
+			We are closed for maintenance!
+			<br>
+			Please visit us later.
+        </div>
+        <div class="dc-offline-login-form">
+        <form action="" method="post" id="dc-ofline-form">
+            <fieldset class="dc-offline-fieldset">
+            	<legend>Login</legend>
+                <div class="dc-offline-username">
+                    <span class="dc-offline-label">
+                        <label for="username">Username</label>
+                    </span>
+                    <span class="dc-offline-input">
+                        <input name="username" id="username" type="text" class="dc-offline-inputbox" alt="Username">
+                    </span>
+                </div>
+                
+                <div class="dc-offline-password">
+                    <span class="dc-offline-label">
+                        <label for="passwd">Password</label>
+                    </span>
+                    
+                    <span class="dc-offline-input">
+                        <input type="password" name="password" class="dc-offline-inputbox" alt="Password" id="passwd">
+                    </span>
+                </div>
+                
+                <div class="dc-offline-remember">
+                    <span class="dc-offline-label">
+                        <label for="remember">Remember Me?</label>
+                    </span>
+                    <span class="dc-offline-input">
+                        <input type="checkbox" name="remember" class="inputbox" value="yes" alt="Remember Me" id="remember">
+                    </span>
+                </div>
+                <div class="dc-offline-login-button">
+                    <input type="submit" name="Submit" class="dc-offline-login-button" value="Login" />
+                </div>
+            </fieldset>
+        </form>
+        </div>
+    </div>
+
+</body>
+</html>
