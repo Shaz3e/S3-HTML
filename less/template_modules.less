@@ -11,8 +11,8 @@ div.dc-block{
 div.dc-block.s3-text-center{text-align:center;}
 div.dc-block.s3-uppercase{text-transform:uppercase !important;}
 div.dc-block.s3-capitalize{text-transform:capitalize !important;}
-div.dc-block.s3-padding{padding:0.5em;}
-div.dc-block.s3-margin{margin:0.5em;}
+div.dc-block.s3-padding{padding:1em;}
+div.dc-block.s3-margin{margin:1em;}
 
 /************************************************
 Different Module Title Styles
@@ -130,7 +130,6 @@ Different Module Badges Styles
 .dc-block.s3-badge-new:before {
     content:url(../../images/badges/badge-new.png);
 }
-
 /************************************************
 Different Module Color Boxes
 ************************************************/
@@ -141,7 +140,9 @@ div.dc-block.s3-box-dark,
 div.dc-block.s3-box-blue,
 div.dc-block.s3-box-orange,
 div.dc-block.s3-box-red,
-div.dc-block.s3-box-green{}
+div.dc-block.s3-box-green{
+	padding:0.5em 1em;
+}
 
 div.dc-block.s3-box-white{
 	 h3{
@@ -254,6 +255,9 @@ div.dc-block.s3-box-shadow5{
 	}
 }
 
+
+
+
 /* Media Queries
 *********************************************/
 /* Retina */
@@ -273,10 +277,10 @@ div.dc-block.s3-box-shadow5{
 	
 }
 /* desktop */
-@media (min-width: 980px){
+@media (max-width: 979px) {
 	
 }
-@media (max-width: 979px) {
+@media (min-width: 980px){
 	
 }
 /* Large desktop */
