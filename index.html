@@ -41,6 +41,13 @@ $less->setFormatter("compressed");
 $less->checkedCompile("themes/style1/style.less", "compile/style.css");
 ?>
 
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $(".s3-video").fitVids();
+  });
+</script>
+
 <!---------------------------------------------
 By default watch mode is enabled
 if you are working on development machine put this code as it is
