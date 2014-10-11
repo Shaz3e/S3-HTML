@@ -1,4 +1,4 @@
-## S3 Responsive Tempalte System for HTML5
+## S3 Responsive Template System for HTML5
 S3 Responsive Framework for HTML5 integrated with Bootstrap 3 Responsive Images and Less
 
 ### S3 Framework Base Theme
