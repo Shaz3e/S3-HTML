@@ -1,4 +1,4 @@
-## S3 Responsive Template System for HTML5
+## S3Framework - Responsive Template System for HTML5
 S3 Responsive Framework for HTML5 integrated with Bootstrap 3 Responsive Images and Less
 
 ### S3 Framework Base Theme
@@ -14,14 +14,11 @@ S3 is a sophisticated framework with the sole intention of being the best platfo
  - Full extensible framework architecture
 
 ### Features
- - 6 Columns Grid System
- - 150+ Module Positions
+ - 12 Columns Grid System
+ - 300+ Module Positions
  - Suitable with any design
  - IE7 and IE8 Supported
- - Custom Logo
  - Choose from Different Styles
- - Custom theme's module styles with themes/style1/theme_modules.less file
- - s3-elements folder contains s3-button.less s3-typography.less, s3-form-elements.less (where you can update your own customize styles)
  - Use Google Analytics Code
  - Responsive Video with [FitVids.js](https://github.com/davatron5000/FitVids.js).
  - Font Icons [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
