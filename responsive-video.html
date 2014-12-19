@@ -1,8 +1,21 @@
 <?php
-	require "lessc.inc.php";
-	$less = new lessc;
-	$less->setFormatter("compressed");
-	$less->checkedCompile("themes/style1/style.less","themes/style1/style.css");
+    require "lessc.inc.php";
+    $inputFile = "themes/style1/style.less";
+    $outputFile = "themes/style1/style.css";
+
+    $less = new lessc;
+
+    // create a new cache object, and compile
+    $cache = $less->cachedCompile($inputFile);
+
+    file_put_contents($outputFile, $cache["compiled"]);
+
+    // the next time we run, write only if it has updated
+    $last_updated = $cache["updated"];
+    $cache = $less->cachedCompile($cache);
+    if ($cache["updated"] > $last_updated) {
+        file_put_contents($outputFile, $cache["compiled"]);
+    }
 ?>
 
 <!doctype html>
