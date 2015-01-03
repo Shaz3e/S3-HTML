@@ -1,5 +1,4 @@
-## S3Framework - Responsive Template System for HTML5
-S3 Responsive Framework for HTML5 integrated with Bootstrap 3 Responsive Images and Less
+## S3 Framework - Responsive Template System for HTML5
 
 ### S3 Framework Base Theme
 The S3 Framework base theme is a clean modern responsive design that is a great place to start when building your custom S3 powered theme.
@@ -12,6 +11,10 @@ S3 is a sophisticated framework with the sole intention of being the best platfo
  - LESS CSS auto-compilation
  - Flexible widgets for template customization
  - Full extensible framework architecture
+ - Responsive elements with [Bootstrap](http://getbootstrap.com/).
+ - Font Icons with [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
+ - Less compiler as [lessphp](http://leafo.net/lessphp/).
+ - Responsive Video with [FitVids.js](https://github.com/davatron5000/FitVids.js).
 
 ### Features
  - 12 Columns Grid System
@@ -20,11 +23,9 @@ S3 is a sophisticated framework with the sole intention of being the best platfo
  - IE7 and IE8 Supported
  - Choose from Different Styles
  - Use Google Analytics Code
- - Responsive Video with [FitVids.js](https://github.com/davatron5000/FitVids.js).
- - Font Icons [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
  
 ### How To Use
-Visit for Complete [Documentation](http://shaz3e.com/documantation/)
+Visit for Complete [Documentation](http://shaz3e.com/)
  
 ### Download, Fork, Commit.
 If you think you can make this better, please Download, Fork, & Commit. We'd love to see your ideas.
