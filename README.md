@@ -2,7 +2,7 @@
 ####Create beautiful responsive HTML5 Websites more easier and faster.
 
 [![S3Framework](http://img.shields.io/badge/S3Framework-Stable-blue.svg)](http://www.shaz3e.com)
-[![Version](http://img.shields.io/badge/Version-1.5.1-green.svg)](http://www.shaz3e.com)
+[![Version](http://img.shields.io/badge/Version-1.5.2-green.svg)](http://www.shaz3e.com)
 
 ### S3 Framework Base Theme
 The S3 Framework base theme is a clean modern responsive design that is a great place to start when building your custom S3 powered theme.
